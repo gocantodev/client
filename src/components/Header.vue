@@ -23,7 +23,7 @@
 							{{ header.name }} <small class="text-xs font-normal text-gray-400">(He/Him)</small>
 						</h1>
 					</div>
-					<div class="mt-6 flex flex-col justify-stretch space-y-3 sm:flex-row sm:space-y-0 sm:space-x-4">
+					<div class="hidden md:block mt-6 flex flex-col justify-stretch space-y-3 sm:flex-row sm:space-y-0 sm:space-x-4">
 						<button type="button" class="inline-flex justify-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
 							<!-- Heroicon name: solid/mail -->
 							<svg class="-ml-1 mr-2 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -42,6 +42,10 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-gray-500 mt-5">
+			<p>I'm Gus! I'm a full-stack Software Engineer who has been building web technologies for more than a decade.</p>
+			<p class="mt-5">I like to work in environments where my critical and analytical thinking, entrepreneurial mindset, and passion for my work will contribute to a team.</p>
 		</div>
 	</div>
 </template>
