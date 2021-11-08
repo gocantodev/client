@@ -11,7 +11,7 @@
 
 <template>
 
-	<div class="py-16 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
+	<section class="py-16 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
 		<div class="max-w-max lg:max-w-5xl mx-auto">
 <!--			<section-heading></section-heading>-->
 			<div class="relative">
@@ -46,5 +46,5 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 </template>
