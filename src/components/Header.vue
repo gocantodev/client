@@ -1,18 +1,18 @@
 <script lang="ts">
 	import { PropType } from 'vue';
-	import { Header } from "./Types";
+	import { Author } from "../entity";
 
 	export default {
 		props: {
-			header: {
-				type: Object as PropType<Header>,
+			author: {
+				type: Object as PropType<Author>,
 				required: true,
 			}
 		},
 
 		setup(props: any) {
 			const onMessage = (): void => {
-				window.location.href = `mailto:${props.header.email}`
+				window.location.href = `mailto:${props.author.email}`
 			}
 
 			return {
@@ -34,14 +34,14 @@
 			<div class="mt-6 sm:flex-1 sm:min-w-0 sm:flex sm:items-center sm:justify-end sm:space-x-6 sm:pb-1">
 				<div class="sm:hidden 2xl:block mt-6 min-w-0 flex-1">
 					<h1 class="text-2xl font-bold text-gray-900 truncate">
-						{{ header.name }} <small class="text-xs font-normal text-gray-400">(He/Him)</small>
+						{{ author.name }} <small class="text-xs font-normal text-gray-400">(He/Him)</small>
 					</h1>
 					<div class="text-gray-400 text-sm">Software Engineer.</div>
 				</div>
 				<div class="mt-6 flex flex-col justify-stretch space-y-3 sm:flex-row sm:space-y-0 sm:space-x-4">
 					<button
 						@click="onMessage()"
-						:title="`Send ${header.nickname} a contact email.`"
+						:title="`Send ${author.nickname} a contact email.`"
 						type="button"
 						class="inline-flex justify-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500"
 					>
@@ -57,7 +57,7 @@
 		</div>
 		<div class="hidden sm:block 2xl:hidden mt-6 min-w-0 flex-1">
 			<h1 class="text-2xl font-bold text-gray-900 truncate">
-				{{ header.name }}
+				{{ author.name }}
 			</h1>
 		</div>
 	</div>
