@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import Navigation from './Component/Navigation/Bar.vue'
-import { Author } from './Component/Entity'
-import About from './Component/About.vue'
-import { defineComponent } from 'vue';
+	import Navigation from './Component/Navigation/Bar.vue'
+	import { Author } from './Component/Entity'
+	import About from './Component/About.vue'
+	import { defineComponent } from 'vue';
 
 	const author = <Author>{
 		nickname: 'Gus',
@@ -10,6 +10,13 @@ import { defineComponent } from 'vue';
 		email: 'info@gocanto.dev',
 		profession: 'Software Engineer',
 	}
+
+	defineComponent({
+		components: {
+			Navigation,
+			About,
+		},
+	})
 
 	defineExpose({
 		author: author,
