@@ -1,8 +1,11 @@
 <script setup lang="ts">
 	import Navigation from './Component/Navigation/Bar.vue'
 	import { Author } from './Component/Entity'
-	import About from './Component/About.vue'
+	import Experience from './Component/Experience.vue'
 	import Bio from './Component/Bio.vue'
+	import Skills from './Component/Skills.vue'
+	import Open from './Component/Open.vue'
+	import Footer from './Component/Footer.vue'
 
 	const author = <Author>{
 		nickname: 'Gus',
@@ -20,16 +23,28 @@
 	<div class="min-h-full">
 		<Navigation :author="author"></Navigation>
 
-		<div class="section-margin py-4 px-4 sm:px-6 lg:px-8">
+		<div class="pt-8 section-margin">
 			<Bio></Bio>
 		</div>
 
-		<About></About>
+		<div class="bg-purple-600 mt-10 pb-10">
+			<div class="section-margin">
+				<Experience></Experience>
+			</div>
+		</div>
+
+		<div class="section-margin">
+			<Skills></Skills>
+		</div>
+
+		<div class="bg-purple-600 mt-10 pb-10">
+			<div class="section-margin">
+				<Open></Open>
+			</div>
+		</div>
+
+		<div class="section-margin">
+			<Footer></Footer>
+		</div>
 	</div>
 </template>
-
-<style>
-.section-margin {
-	@apply max-w-7xl mx-auto
-}
-</style>

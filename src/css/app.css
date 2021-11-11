@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section-margin {
+  @apply max-w-7xl mx-auto lg:px-8 px-4 sm:px-6
+}
