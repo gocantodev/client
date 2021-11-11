@@ -10,7 +10,7 @@
 		}
 	})
 
-	const isOpen = ref(true)
+	const isOpen = ref(false)
 	const current = ref('about')
 
 	const toggleMenu = (): void => {
