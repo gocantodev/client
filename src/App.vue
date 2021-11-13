@@ -21,30 +21,37 @@
 
 <template>
 	<div class="min-h-full">
+
 		<Navigation :author="author"></Navigation>
 
-		<div class="pt-8 section-margin">
-			<Bio></Bio>
+		<div class="bg-white py-5">
+			<div class="section-margin">
+				<Bio></Bio>
+			</div>
 		</div>
 
-		<div class="bg-purple-600 mt-10 pb-10">
+		<section class="bg-gray-50 py-5">
 			<div class="section-margin">
 				<Experience></Experience>
 			</div>
-		</div>
+		</section>
 
-		<div class="section-margin">
-			<Skills></Skills>
-		</div>
+		<section class="bg-white py5">
+			<div class="section-margin">
+				<Skills></Skills>
+			</div>
+		</section>
 
-		<div class="bg-purple-600 mt-10 pb-10">
+		<section class="bg-gray-50 py5">
 			<div class="section-margin">
 				<Open></Open>
 			</div>
-		</div>
+		</section>
 
-		<div class="section-margin">
-			<Footer></Footer>
+		<div class="nav-bg">
+			<div class="section-margin">
+				<Footer></Footer>
+			</div>
 		</div>
 	</div>
 </template>

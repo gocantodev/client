@@ -1,147 +1,153 @@
 <template>
 	<div class="py-10">
-		<h2 class="text-3xl font-extrabold text-white tracking-tight">
+		<h2 class="section-title">
 			Experience
 		</h2>
-		<p class="mt-4 max-w-3xl text-lg text-indigo-200">
-			Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. Blandit aliquam sit nisl euismod mattis in.
+		<p class="mt-4 text-gray-400 text-sm">
+			Throughout my career, I have been blessed with different projects and use cases. Thus, I have been able to
+			work with different technologies making use of the web development full-stack.
 		</p>
 		<div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
+
 			<div>
-				<div>
-          <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-            <!-- Heroicon name: outline/inbox -->
-            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
-            </svg>
-          </span>
+				<div class="icon">
+					<!-- Heroicon name: outline/credit-card -->
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="text-lg font-medium text-white">Unlimited Inboxes</h3>
-					<p class="mt-2 text-base text-indigo-200">
-						Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+					<h3 class="font-medium text-gray-600 text-lg">Payments</h3>
+					<p class="mt-2 text-base text-gray-400">
+						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
+						customers or team members to understand their needs to build customizable e-stores.
 					</p>
 				</div>
 			</div>
 
 			<div>
-				<div>
-          <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-            <!-- Heroicon name: outline/users -->
-            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
-            </svg>
-          </span>
+				<div class="icon">
+					<!-- Heroicon name: outline/shopping-cart -->
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="text-lg font-medium text-white">Manage Team Members</h3>
-					<p class="mt-2 text-base text-indigo-200">
-						Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+					<h3 class="font-medium text-gray-600 text-lg">E-Commerce</h3>
+					<p class="mt-2 text-base text-gray-400">
+						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
+						customers or team members to understand their needs to build customizable e-stores.
 					</p>
 				</div>
 			</div>
 
 			<div>
-				<div>
-          <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-            <!-- Heroicon name: outline/trash -->
-            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-            </svg>
-          </span>
+				<div class="icon">
+					<!-- Heroicon name: outline/archive -->
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="text-lg font-medium text-white">Spam Report</h3>
-					<p class="mt-2 text-base text-indigo-200">
-						Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+					<h3 class="font-medium text-gray-600 text-lg">Inventory</h3>
+					<p class="mt-2 text-base text-gray-400">
+						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
+						customers or team members to understand their needs to build customizable e-stores.
 					</p>
 				</div>
 			</div>
 
 			<div>
-				<div>
-          <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-            <!-- Heroicon name: outline/pencil-alt -->
-            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-            </svg>
-          </span>
+				<div class="icon">
+					<!-- Heroicon name: outline/shopping-cart -->
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5" />
+					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="text-lg font-medium text-white">Compose in Markdown</h3>
-					<p class="mt-2 text-base text-indigo-200">
-						Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+					<h3 class="font-medium text-gray-600 text-lg">APIs</h3>
+					<p class="mt-2 text-base text-gray-400">
+						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
+						customers or team members to understand their needs to build customizable e-stores.
 					</p>
 				</div>
 			</div>
 
 			<div>
-				<div>
-          <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-            <!-- Heroicon name: outline/document-report -->
-            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-          </span>
+				<div class="icon">
+					<!-- Heroicon name: outline/ticket -->
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z" />
+					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="text-lg font-medium text-white">Team Reporting</h3>
-					<p class="mt-2 text-base text-indigo-200">
-						Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+					<h3 class="font-medium text-gray-600 text-lg">Ticketing</h3>
+					<p class="mt-2 text-base text-gray-400">
+						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
+						customers or team members to understand their needs to build customizable e-stores.
 					</p>
 				</div>
 			</div>
 
 			<div>
-				<div>
-          <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-            <!-- Heroicon name: outline/reply -->
-            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
-            </svg>
-          </span>
+				<div class="icon">
+					<!-- Heroicon name: outline/code -->
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="text-lg font-medium text-white">Saved Replies</h3>
-					<p class="mt-2 text-base text-indigo-200">
-						Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+					<h3 class="font-medium text-gray-600 text-lg">Saas</h3>
+					<p class="mt-2 text-base text-gray-400">
+						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
+						customers or team members to understand their needs to build customizable e-stores.
 					</p>
 				</div>
 			</div>
 
 			<div>
-				<div>
-          <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-            <!-- Heroicon name: outline/chat-alt -->
-            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
-            </svg>
-          </span>
+				<div class="icon">
+					<!-- Heroicon name: outline/building -->
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="text-lg font-medium text-white">Email Commenting</h3>
-					<p class="mt-2 text-base text-indigo-200">
-						Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+					<h3 class="font-medium text-gray-600 text-lg">Capacity</h3>
+					<p class="mt-2 text-base text-gray-400">
+						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
+						customers or team members to understand their needs to build customizable e-stores.
 					</p>
 				</div>
 			</div>
 
 			<div>
-				<div>
-          <span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-            <!-- Heroicon name: outline/heart -->
-            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-            </svg>
-          </span>
+				<div class="icon">
+					<!-- Heroicon name: outline/chart -->
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
+					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="text-lg font-medium text-white">Connect with Customers</h3>
-					<p class="mt-2 text-base text-indigo-200">
-						Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+					<h3 class="font-medium text-gray-600 text-lg">POS</h3>
+					<p class="mt-2 text-base text-gray-400">
+						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
+						customers or team members to understand their needs to build customizable e-stores.
 					</p>
 				</div>
 			</div>
+
 		</div>
 	</div>
 </template>
+
+<style scoped>
+.icon {
+	@apply flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 bg-opacity-10
+}
+
+.icon svg {
+	@apply h-6 w-6 text-indigo-500
+}
+</style>

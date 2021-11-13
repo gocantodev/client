@@ -33,7 +33,7 @@
 </script>
 
 <template>
-	<nav class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 shadow">
+	<nav class="nav-bg shadow">
 		<div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
 			<div class="flex items-center">
 				<img class="h-12 w-auto rounded-full ring-2 ring-white" src="../../assets/avatar.jpg" :alt="author.nickname">

@@ -1,6 +1,6 @@
 <template>
-	<div class="p-4 text-gray-500 border-4 border-dashed border-gray-200 rounded-lg text-lg">
-		<p>&#128512; Hi, I am Gus!</p>
+	<div class="p-4 text-gray-500">
+		<p>Hi, I am Gus! &#128512; </p>
 		<p class="mt-3">
 			I'm a full-stack Software Engineer who has been building web technologies for more than a decade.
 		</p>
