@@ -3,6 +3,7 @@
 	import { Author } from './Component/Entity'
 	import Experience from './Component/Experience.vue'
 	import Bio from './Component/Bio.vue'
+	import Hero from './Component/Hero.vue'
 	import Skills from './Component/Skills.vue'
 	import Open from './Component/Open.vue'
 	import Footer from './Component/Footer.vue'
@@ -23,6 +24,8 @@
 	<div class="min-h-full">
 
 		<Navigation :author="author"></Navigation>
+
+		<Hero></Hero>
 
 		<div class="bg-white py-5">
 			<div class="section-margin">
