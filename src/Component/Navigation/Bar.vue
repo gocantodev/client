@@ -33,17 +33,12 @@
 </script>
 
 <template>
-	<nav class="nav-bg shadow">
+	<nav class="nav-bg">
 		<div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-			<div class="flex items-center">
-				<img class="h-12 w-auto rounded-full ring-2 ring-white" src="../../assets/avatar.jpg" :alt="author.nickname">
-				<div class="flex items-center ml-5 flex-col items-stretch">
-					<div class="flex items-baseline text-lg font-medium text-white">
-						<span>{{ author.name }}</span>
-						<small class="font-normal text-xs ml-2">(He/Him)</small>
-					</div>
-					<div class="text-xs text-white">{{ author.profession }}</div>
-				</div>
+			<div class="bg-white flex items-center opacity-50 p-2 rounded-full">
+				<svg xmlns="http://www.w3.org/2000/svg" class="h-6 text-purple-500 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+				</svg>
 			</div>
 			<nav class="hidden md:block">
 				<a
