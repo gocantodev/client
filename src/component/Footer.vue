@@ -1,6 +1,6 @@
 <template>
-	<footer>
-		<div class="py-5 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+	<footer class="nav-bg">
+		<div class="py-5 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8 section-margin">
 			<div class="flex justify-center space-x-6 md:order-2">
 				<a href="#" class="text-white hover:text-green-300">
 					<span class="sr-only">Facebook</span>

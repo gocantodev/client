@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .nav-bg {
-  @apply bg-gradient-to-r from-green-300 via-blue-500 to-purple-600
+  @apply bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500
 }
 
 .section-margin {
@@ -11,5 +11,17 @@
 }
 
 .section-title {
-  @apply bg-clip-text bg-gradient-to-r font-extrabold from-purple-600 text-transparent to-gray-300 text-3xl
+  @apply bg-clip-text bg-gradient-to-r font-extrabold from-pink-500 text-3xl text-transparent to-yellow-500 via-red-500
+}
+
+.section-title-normal {
+  @apply bg-clip-text bg-gradient-to-r from-pink-500 text-transparent to-yellow-500 via-red-500
+}
+
+.icon {
+  @apply flex items-center justify-center h-12 w-12 rounded-md bg-gray-50
+}
+
+.icon svg {
+  @apply h-6 w-6 text-pink-500
 }

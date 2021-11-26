@@ -143,11 +143,5 @@
 </template>
 
 <style scoped>
-.icon {
-	@apply flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 bg-opacity-10
-}
 
-.icon svg {
-	@apply h-6 w-6 text-indigo-500
-}
 </style>

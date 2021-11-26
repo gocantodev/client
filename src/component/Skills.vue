@@ -1,8 +1,8 @@
 <template>
-		<div class="lg:gap-x-8 lg:grid lg:grid-cols-3 lg:px-8 lg:py-24">
+		<div class="lg:gap-x-8 lg:grid lg:grid-cols-3 lg:py-24">
 			<div>
-				<h2 class="text-base font-semibold text-purple-600 uppercase tracking-wide">Everything you need</h2>
-				<p class="mt-2 text-3xl font-extrabold text-gray-900">Skills</p>
+				<h2 class="text-base font-semibold text-gray-900 uppercase tracking-wide">Everything you need</h2>
+				<p class="mt-2 section-title">Skills</p>
 				<p class="mt-4 text-lg text-gray-500">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.</p>
 			</div>
 			<div class="mt-12 lg:mt-0 lg:col-span-2">
@@ -10,7 +10,7 @@
 					<div class="relative">
 						<dt>
 							<!-- Heroicon name: outline/check -->
-							<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+							<svg class="absolute h-6 w-6 text-pink-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 							</svg>
 							<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Invite team members</p>
@@ -23,7 +23,7 @@
 					<div class="relative">
 						<dt>
 							<!-- Heroicon name: outline/check -->
-							<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+							<svg class="absolute h-6 w-6 text-pink-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 							</svg>
 							<p class="ml-9 text-lg leading-6 font-medium text-gray-900">List view</p>
@@ -36,7 +36,7 @@
 					<div class="relative">
 						<dt>
 							<!-- Heroicon name: outline/check -->
-							<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+							<svg class="absolute h-6 w-6 text-pink-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 							</svg>
 							<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Keyboard shortcuts</p>
@@ -49,7 +49,7 @@
 					<div class="relative">
 						<dt>
 							<!-- Heroicon name: outline/check -->
-							<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+							<svg class="absolute h-6 w-6 text-pink-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 							</svg>
 							<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Calendars</p>
@@ -62,7 +62,7 @@
 					<div class="relative">
 						<dt>
 							<!-- Heroicon name: outline/check -->
-							<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+							<svg class="absolute h-6 w-6 text-pink-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 							</svg>
 							<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Notifications</p>
@@ -75,7 +75,7 @@
 					<div class="relative">
 						<dt>
 							<!-- Heroicon name: outline/check -->
-							<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+							<svg class="absolute h-6 w-6 text-pink-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 							</svg>
 							<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Boards</p>
@@ -88,7 +88,7 @@
 					<div class="relative">
 						<dt>
 							<!-- Heroicon name: outline/check -->
-							<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+							<svg class="absolute h-6 w-6 text-pink-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 							</svg>
 							<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Reporting</p>
@@ -101,7 +101,7 @@
 					<div class="relative">
 						<dt>
 							<!-- Heroicon name: outline/check -->
-							<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+							<svg class="absolute h-6 w-6 text-pink-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 							</svg>
 							<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Mobile app</p>
