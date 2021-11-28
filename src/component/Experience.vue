@@ -1,5 +1,4 @@
 <template>
-	<div class="py-10">
 		<h2 class="section-title">
 			Experience
 		</h2>
@@ -139,9 +138,4 @@
 			</div>
 
 		</div>
-	</div>
 </template>
-
-<style scoped>
-
-</style>

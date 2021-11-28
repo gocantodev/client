@@ -1,5 +1,5 @@
 <template>
-		<div class="lg:gap-x-8 lg:grid lg:grid-cols-3 lg:py-24">
+		<div class="lg:gap-x-8 lg:grid lg:grid-cols-3">
 			<div>
 				<h2 class="text-base font-semibold text-gray-900 uppercase tracking-wide">Everything you need</h2>
 				<p class="mt-2 section-title">Skills</p>

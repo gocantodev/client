@@ -30,21 +30,24 @@
 		<div class="w-full h-1 nav-bg shadow"></div>
 	</section>
 
-	<section class="section-margin">
+	<section class="section-margin py-10">
 		<Experience></Experience>
 	</section>
 
 	<section class="bg-gray-100">
-		<div class="section-margin">
+		<div class="section-margin py-10">
 			<Skills></Skills>
 		</div>
 	</section>
 
-	<section class="section-margin">
+	<section class="section-margin py-10">
 		<Open></Open>
 	</section>
 
-	<Footer></Footer>
+	<section>
+		<div class="w-full h-1 nav-bg shadow"></div>
+		<Footer></Footer>
+	</section>
 </div>
 
 </template>

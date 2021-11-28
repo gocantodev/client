@@ -1,5 +1,5 @@
 <template>
-	<div class="relative lg:py-24">
+	<div class="relative">
 		<div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
 			<p class="section-title">
 				Everything you need to deploy your app
