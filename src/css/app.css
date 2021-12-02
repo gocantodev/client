@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .nav-bg {
-  @apply bg-gradient-to-r from-green-300 via-blue-500 to-purple-600
+  @apply bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500
 }
 
 .section-margin {

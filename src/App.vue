@@ -31,12 +31,6 @@
 			</div>
 		</div>
 
-		<div class="bg-white py-5">
-			<div class="section-margin">
-				<Bio></Bio>
-			</div>
-		</div>
-
 		<section class="bg-gray-50 py-5">
 			<div class="section-margin">
 				<Experience></Experience>

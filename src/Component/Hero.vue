@@ -10,7 +10,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
+		<div class="lg:max-w-7xl max-w-4xl mx-auto xl:gap-x-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense">
 			<div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
 				<h2 class="text-sm font-semibold tracking-wide uppercase">
 					<span class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Valuable Metrics</span>
