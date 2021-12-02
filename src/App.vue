@@ -4,7 +4,7 @@
 	import Experience from './Component/Experience.vue'
 	import Hero from './Component/Hero.vue'
 	import Skills from './Component/Skills.vue'
-	import Open from './Component/Open.vue'
+	import Open from './Component/OpenSource.vue'
 	import Footer from './Component/Footer.vue'
 
 	const author = <Author>{
@@ -32,20 +32,18 @@
 
 		<div class="divider"></div>
 
-		<section class="py-5 section-margin">
+		<section class="py-14 section-margin">
 			<Experience></Experience>
 		</section>
 
-		<section class="bg-gray-50 py5">
-			<div class="section-margin">
+		<section class="bg-gray-50">
+			<div class="section-margin py-14">
 				<Skills></Skills>
 			</div>
 		</section>
 
-		<section class="py5">
-			<div class="section-margin">
-				<Open></Open>
-			</div>
+		<section class="section-margin py-14">
+			<Open></Open>
 		</section>
 
 		<div class="nav-bg">

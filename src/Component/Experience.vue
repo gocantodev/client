@@ -1,5 +1,5 @@
 <template>
-	<div class="py-10">
+	<div>
 		<h2 class="section-title">
 			Experience
 		</h2>
@@ -17,7 +17,7 @@
 					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="font-medium text-gray-600 text-lg">Payments</h3>
+					<h3 class="font-medium text-gray-900 text-lg">Payments</h3>
 					<p class="mt-2 text-base text-gray-400">
 						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
 						customers or team members to understand their needs to build customizable e-stores.
@@ -33,7 +33,7 @@
 					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="font-medium text-gray-600 text-lg">E-Commerce</h3>
+					<h3 class="font-medium text-gray-900 text-lg">E-Commerce</h3>
 					<p class="mt-2 text-base text-gray-400">
 						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
 						customers or team members to understand their needs to build customizable e-stores.
@@ -49,7 +49,7 @@
 					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="font-medium text-gray-600 text-lg">Inventory</h3>
+					<h3 class="font-medium text-gray-900 text-lg">Inventory</h3>
 					<p class="mt-2 text-base text-gray-400">
 						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
 						customers or team members to understand their needs to build customizable e-stores.
@@ -65,7 +65,7 @@
 					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="font-medium text-gray-600 text-lg">APIs</h3>
+					<h3 class="font-medium text-gray-900 text-lg">APIs</h3>
 					<p class="mt-2 text-base text-gray-400">
 						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
 						customers or team members to understand their needs to build customizable e-stores.
@@ -81,7 +81,7 @@
 					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="font-medium text-gray-600 text-lg">Ticketing</h3>
+					<h3 class="font-medium text-gray-900 text-lg">Ticketing</h3>
 					<p class="mt-2 text-base text-gray-400">
 						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
 						customers or team members to understand their needs to build customizable e-stores.
@@ -97,7 +97,7 @@
 					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="font-medium text-gray-600 text-lg">Saas</h3>
+					<h3 class="font-medium text-gray-900 text-lg">Saas</h3>
 					<p class="mt-2 text-base text-gray-400">
 						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
 						customers or team members to understand their needs to build customizable e-stores.
@@ -113,7 +113,7 @@
 					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="font-medium text-gray-600 text-lg">Capacity</h3>
+					<h3 class="font-medium text-gray-900 text-lg">Capacity</h3>
 					<p class="mt-2 text-base text-gray-400">
 						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
 						customers or team members to understand their needs to build customizable e-stores.
@@ -130,7 +130,7 @@
 					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="font-medium text-gray-600 text-lg">POS</h3>
+					<h3 class="font-medium text-gray-900 text-lg">POS</h3>
 					<p class="mt-2 text-base text-gray-400">
 						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
 						customers or team members to understand their needs to build customizable e-stores.
