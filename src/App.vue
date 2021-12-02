@@ -2,7 +2,6 @@
 	import Navigation from './Component/Navigation/Bar.vue'
 	import { Author } from './Component/Entity'
 	import Experience from './Component/Experience.vue'
-	import Bio from './Component/Bio.vue'
 	import Hero from './Component/Hero.vue'
 	import Skills from './Component/Skills.vue'
 	import Open from './Component/Open.vue'
@@ -31,19 +30,19 @@
 			</div>
 		</div>
 
-		<section class="bg-gray-50 py-5">
-			<div class="section-margin">
-				<Experience></Experience>
-			</div>
+		<div class="divider"></div>
+
+		<section class="py-5 section-margin">
+			<Experience></Experience>
 		</section>
 
-		<section class="bg-white py5">
+		<section class="bg-gray-50 py5">
 			<div class="section-margin">
 				<Skills></Skills>
 			</div>
 		</section>
 
-		<section class="bg-gray-50 py5">
+		<section class="py5">
 			<div class="section-margin">
 				<Open></Open>
 			</div>

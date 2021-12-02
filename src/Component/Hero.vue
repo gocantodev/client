@@ -13,10 +13,10 @@
 		<div class="lg:max-w-7xl max-w-4xl mx-auto xl:gap-x-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense">
 			<div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
 				<h2 class="text-sm font-semibold tracking-wide uppercase">
-					<span class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Valuable Metrics</span>
+					<span class="text-yellow-500">Hi, I am Gus!</span>
 				</h2>
-				<p class="mt-3 text-3xl font-extrabold text-white">Get actionable data that will help grow your business</p>
-				<p class="mt-5 text-lg text-gray-300">Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing quis in viverra tristique sem. Ornare feugiat viverra eleifend fusce orci in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet amet lacus nibh integer quis. Eu vulputate diam sit tellus quis at.</p>
+				<p class="mt-5 text-lg text-gray-300">I'm a full-stack Software Engineer who has been building web technologies for more than a decade.</p>
+				<p class="mt-5 text-lg text-gray-300">I like to work in environments where my critical and analytical thinking, entrepreneurial mindset, and passion for my work will contribute to a team.</p>
 				<div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
 					<p>
 						<span class="block text-2xl font-bold text-white">8K+</span>

@@ -90,7 +90,7 @@
 
 </template>
 
-<style>
+<style scoped>
 .menu-item {
 	@apply text-pink-100 text-sm font-medium rounded-md bg-white bg-opacity-0 px-3 py-2 hover:bg-opacity-10
 }

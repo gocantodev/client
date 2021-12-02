@@ -3,7 +3,7 @@
 		<h2 class="section-title">
 			Experience
 		</h2>
-		<p class="mt-4 text-gray-400 text-sm">
+		<p class="mt-4 text-gray-400 text-md">
 			Throughout my career, I have been blessed with different projects and use cases. Thus, I have been able to
 			work with different technologies making use of the web development full-stack.
 		</p>
@@ -144,10 +144,10 @@
 
 <style scoped>
 .icon {
-	@apply flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 bg-opacity-10
+	@apply flex items-center justify-center h-12 w-12 rounded-md bg-gray-100
 }
 
 .icon svg {
-	@apply h-6 w-6 text-indigo-500
+	@apply h-6 w-6 text-pink-500
 }
 </style>
