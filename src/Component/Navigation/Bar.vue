@@ -17,7 +17,7 @@
 		isOpen.value = !isOpen.value
 	}
 
-	const setCurrent = (page:string): void => {
+	const setCurrentOption = (page:string): void => {
 		current.value = page
 	}
 
@@ -33,73 +33,81 @@
 </script>
 
 <template>
-	<nav class="nav-bg shadow">
-		<div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-			<div class="flex items-center">
-				<img class="h-12 w-auto rounded-full ring-2 ring-white" src="../../assets/avatar.jpg" :alt="author.nickname">
-				<div class="flex items-center ml-5 flex-col items-stretch">
-					<div class="flex items-baseline text-lg font-medium text-white">
-						<span>{{ author.name }}</span>
-						<small class="font-normal text-xs ml-2">(He/Him)</small>
+	<nav class="nav-bg">
+		<div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+			<div class="relative flex items-center justify-between h-16">
+				<div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+					<!-- Mobile menu button-->
+					<button type="button" @click="toggleMenu()" class="mobile-menu-button" aria-controls="mobile-menu" aria-expanded="false">
+						<span class="sr-only">Open main menu</span>
+						<svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+						</svg>
+						<svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+						</svg>
+					</button>
+				</div>
+				<div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+					<div class="flex-shrink-0 flex items-center text-white">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-8 hidden w-8 md:block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+						</svg>
+						<div class="md:hidden tracking-wide">GOCANTO</div>
 					</div>
-					<div class="text-xs text-white">{{ author.profession }}</div>
+					<div class="hidden sm:block sm:ml-6">
+						<div class="flex space-x-4">
+							<a
+								v-for="item in Menu"
+								:href="`#${item.option}`"
+								:key="item.option"
+								:class="getItemClassFor(item.option)"
+								@click.prevent="setCurrentOption(item.option)"
+							>
+								{{ item.label }}
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
-			<nav class="hidden md:block">
+		</div>
+
+		<!-- Mobile menu, show/hide based on menu state. -->
+		<div class="sm:hidden bg-white" id="mobile-menu" v-if="isOpen">
+			<div class="pt-2 pb-3 space-y-1">
 				<a
 					v-for="item in Menu"
 					:href="`#${item.option}`"
 					:key="item.option"
-					:class="getItemClassFor(item.option)"
-					@click.prevent="setCurrent(item.option)"
+					:class="getItemClassFor(item.option, true)"
+					@click.prevent="setCurrentOption(item.option)"
 				>
 					{{ item.label }}
 				</a>
-			</nav>
-			<div class="-mr-2 flex items-center sm:hidden">
-				<button @click="toggleMenu()" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white" aria-controls="mobile-menu" aria-expanded="false">
-					<span class="sr-only">Open menu</span>
-					<svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-					</svg>
-					<svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-					</svg>
-				</button>
 			</div>
 		</div>
 	</nav>
 
-	<!-- Mobile menu, show/hide based on menu state. -->
-	<div class="sm:hidden" id="mobile-menu" v-if="isOpen">
-		<div class="pt-2 pb-3 space-y-1">
-			<a
-				v-for="item in Menu"
-				:href="`#${item.option}`"
-				:key="item.option"
-				:class="getItemClassFor(item.option, true)"
-				@click.prevent="setCurrent(item.option)"
-			>
-				{{ item.label }}
-			</a>
-		</div>
-	</div>
 </template>
 
 <style>
 .menu-item {
-	@apply text-indigo-100 text-sm font-medium rounded-md bg-white bg-opacity-0 px-3 py-2 hover:bg-opacity-10
+	@apply text-pink-100 text-sm font-medium rounded-md bg-white bg-opacity-0 px-3 py-2 hover:bg-opacity-10
 }
 
 .menu-item-active {
-	@apply text-indigo-100 text-sm font-medium rounded-md bg-white bg-opacity-0 px-3 py-2 bg-opacity-10
+	@apply text-pink-100 text-sm font-medium rounded-md bg-white px-3 py-2 bg-opacity-10
 }
 
 .mobile-menu-item {
-	@apply border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium
+	@apply border-transparent text-pink-500 hover:bg-gray-50 block pl-3 pr-4 py-2 border-l-4 text-base
 }
 
 .mobile-menu-item-active {
-	@apply bg-indigo-50 border-indigo-500 text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium
+	@apply bg-gray-50 border-pink-500 text-pink-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium
+}
+
+.mobile-menu-button {
+	@apply bg-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white hover:opacity-70 inline-flex items-center justify-center opacity-50 p-2 rounded-md text-gray-500
 }
 </style>
