@@ -25,7 +25,11 @@
 
 		<Navigation :author="author"></Navigation>
 
-		<Hero></Hero>
+		<div class="bg-white bg-gray-900">
+			<div class="section-margin">
+				<Hero></Hero>
+			</div>
+		</div>
 
 		<div class="bg-white py-5">
 			<div class="section-margin">
