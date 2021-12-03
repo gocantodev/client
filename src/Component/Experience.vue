@@ -1,8 +1,8 @@
 <template>
 	<div>
-		<h2 class="section-title">
+		<a href="#experience" id="experience" class="section-title">
 			Experience
-		</h2>
+		</a>
 		<p class="mt-4 text-gray-400 text-md">
 			As a full-stack developer, I am experienced in a wide range of technologies and am comfortable taking responsibility for major commercial projects.
 			I have also been recognized for giving input to UI/UX projects and have a high level of proficiency in JavaScript, using Vue.js combined with a

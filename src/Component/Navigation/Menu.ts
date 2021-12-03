@@ -5,16 +5,8 @@ interface Item {
 
 const Menu:Array<Item> = [
   {
-    label: 'About',
-    option: 'about',
-  },
-  {
     label: 'Experience',
     option: 'experience',
-  },
-  {
-    label: 'Education',
-    option: 'education',
   },
   {
     label: 'Skills',

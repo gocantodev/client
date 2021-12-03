@@ -1,9 +1,9 @@
 <template>
 	<div class="relative">
 		<div class="mx-auto max-w-md text-center sm:max-w-3xl lg:max-w-7xl">
-			<p class="mt-2 section-title">
+			<a href="#open-source" id="open-source" class="mt-2 section-title">
 				Open Source Projects
-			</p>
+			</a>
 			<p class="mt-5 max-w-prose mx-auto text-gray-400 text-md">
 				I actively maintain many PHP, JavaScript & GO repositories and have contributed to many others, such as Laravel.
 			</p>

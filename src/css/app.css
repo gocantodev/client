@@ -27,3 +27,7 @@
 .divider {
   @apply nav-bg h-1 shadow
 }
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
