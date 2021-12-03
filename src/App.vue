@@ -2,9 +2,9 @@
 	import Navigation from './Component/Navigation/Bar.vue'
 	import { Author } from './Component/Entity'
 	import Experience from './Component/Experience.vue'
-	import Bio from './Component/Bio.vue'
+	import Hero from './Component/Hero.vue'
 	import Skills from './Component/Skills.vue'
-	import Open from './Component/Open.vue'
+	import Open from './Component/OpenSource.vue'
 	import Footer from './Component/Footer.vue'
 
 	const author = <Author>{
@@ -24,34 +24,31 @@
 
 		<Navigation :author="author"></Navigation>
 
-		<div class="bg-white py-5">
+		<div class="bg-white bg-gray-900">
 			<div class="section-margin">
-				<Bio></Bio>
+				<Hero></Hero>
 			</div>
 		</div>
 
-		<section class="bg-gray-50 py-5">
-			<div class="section-margin">
-				<Experience></Experience>
-			</div>
+		<div class="divider"></div>
+
+		<section class="py-14 section-margin">
+			<Experience></Experience>
 		</section>
 
-		<section class="bg-white py5">
-			<div class="section-margin">
+		<section class="bg-gray-50">
+			<div class="section-margin py-14">
 				<Skills></Skills>
 			</div>
 		</section>
 
-		<section class="bg-gray-50 py5">
-			<div class="section-margin">
-				<Open></Open>
-			</div>
+		<section class="section-margin py-14">
+			<Open></Open>
 		</section>
 
-		<div class="nav-bg">
-			<div class="section-margin">
-				<Footer></Footer>
-			</div>
+		<div class="section-margin">
+			<Footer></Footer>
 		</div>
+
 	</div>
 </template>

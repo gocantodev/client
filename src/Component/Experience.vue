@@ -1,11 +1,12 @@
 <template>
-	<div class="py-10">
+	<div>
 		<h2 class="section-title">
 			Experience
 		</h2>
-		<p class="mt-4 text-gray-400 text-sm">
-			Throughout my career, I have been blessed with different projects and use cases. Thus, I have been able to
-			work with different technologies making use of the web development full-stack.
+		<p class="mt-4 text-gray-400 text-md">
+			As a full-stack developer, I am experienced in a wide range of technologies and am comfortable taking responsibility for major commercial projects.
+			I have also been recognized for giving input to UI/UX projects and have a high level of proficiency in JavaScript, using Vue.js combined with a
+			variety of CSS frameworks like Less, Sass, Tailwind CSS and, vanilla CSS.
 		</p>
 		<div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
 
@@ -17,7 +18,7 @@
 					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="font-medium text-gray-600 text-lg">Payments</h3>
+					<h3 class="font-medium text-gray-900 text-lg">Payments</h3>
 					<p class="mt-2 text-base text-gray-400">
 						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
 						customers or team members to understand their needs to build customizable e-stores.
@@ -33,7 +34,7 @@
 					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="font-medium text-gray-600 text-lg">E-Commerce</h3>
+					<h3 class="font-medium text-gray-900 text-lg">E-Commerce</h3>
 					<p class="mt-2 text-base text-gray-400">
 						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
 						customers or team members to understand their needs to build customizable e-stores.
@@ -49,7 +50,7 @@
 					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="font-medium text-gray-600 text-lg">Inventory</h3>
+					<h3 class="font-medium text-gray-900 text-lg">Inventory</h3>
 					<p class="mt-2 text-base text-gray-400">
 						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
 						customers or team members to understand their needs to build customizable e-stores.
@@ -65,7 +66,7 @@
 					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="font-medium text-gray-600 text-lg">APIs</h3>
+					<h3 class="font-medium text-gray-900 text-lg">APIs</h3>
 					<p class="mt-2 text-base text-gray-400">
 						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
 						customers or team members to understand their needs to build customizable e-stores.
@@ -81,7 +82,7 @@
 					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="font-medium text-gray-600 text-lg">Ticketing</h3>
+					<h3 class="font-medium text-gray-900 text-lg">Ticketing</h3>
 					<p class="mt-2 text-base text-gray-400">
 						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
 						customers or team members to understand their needs to build customizable e-stores.
@@ -97,7 +98,7 @@
 					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="font-medium text-gray-600 text-lg">Saas</h3>
+					<h3 class="font-medium text-gray-900 text-lg">Saas</h3>
 					<p class="mt-2 text-base text-gray-400">
 						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
 						customers or team members to understand their needs to build customizable e-stores.
@@ -113,7 +114,7 @@
 					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="font-medium text-gray-600 text-lg">Capacity</h3>
+					<h3 class="font-medium text-gray-900 text-lg">Capacity</h3>
 					<p class="mt-2 text-base text-gray-400">
 						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
 						customers or team members to understand their needs to build customizable e-stores.
@@ -130,7 +131,7 @@
 					</svg>
 				</div>
 				<div class="mt-6">
-					<h3 class="font-medium text-gray-600 text-lg">POS</h3>
+					<h3 class="font-medium text-gray-900 text-lg">POS</h3>
 					<p class="mt-2 text-base text-gray-400">
 						I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing
 						customers or team members to understand their needs to build customizable e-stores.
@@ -144,10 +145,10 @@
 
 <style scoped>
 .icon {
-	@apply flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 bg-opacity-10
+	@apply flex items-center justify-center h-12 w-12 rounded-md bg-gray-100
 }
 
 .icon svg {
-	@apply h-6 w-6 text-indigo-500
+	@apply h-6 w-6 text-pink-500
 }
 </style>
