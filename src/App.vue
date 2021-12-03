@@ -46,10 +46,9 @@
 			<Open></Open>
 		</section>
 
-		<div class="nav-bg">
-			<div class="section-margin">
-				<Footer></Footer>
-			</div>
+		<div class="section-margin">
+			<Footer></Footer>
 		</div>
+
 	</div>
 </template>
