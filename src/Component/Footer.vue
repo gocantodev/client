@@ -1,5 +1,5 @@
 <template>
-	<footer class="border-t border-gray-50 mt-8">
+	<footer class="border-t border-gray-100 mt-8">
 		<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
 			<div class="flex justify-center space-x-6 md:order-2">
 				<a target="_blank" href="https://www.facebook.com/ocantog" class="text-gray-400 hover:text-gray-500">

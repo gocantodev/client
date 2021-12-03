@@ -1,7 +1,7 @@
 <template>
 		<div class="lg:gap-x-8 lg:grid lg:grid-cols-3">
 			<div>
-				<p class="mt-2 section-title">Skills</p>
+				<a href="#skills" id="skills" class="mt-2 section-title">Skills</a>
 				<p class="mt-4 text-lg text-gray-500">
 					I am a passionate learner and have specialized in PHP, including in-depth use of Laravel and Symfony components, as well as Golang and NodeJS
 				</p>

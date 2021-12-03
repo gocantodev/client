@@ -11,14 +11,16 @@
 	})
 
 	const isOpen = ref(false)
-	const current = ref('about')
+	const current = ref('')
 
 	const toggleMenu = (): void => {
 		isOpen.value = !isOpen.value
 	}
 
-	const setCurrentOption = (page:string): void => {
-		current.value = page
+	const setCurrentOption = (option:string): void => {
+		current.value = option
+
+		window.location.href = `#${option}`
 	}
 
 	const getItemClassFor = (page:string, isMobile:boolean = false): string => {
