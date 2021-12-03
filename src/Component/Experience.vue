@@ -4,8 +4,9 @@
 			Experience
 		</h2>
 		<p class="mt-4 text-gray-400 text-md">
-			Throughout my career, I have been blessed with different projects and use cases. Thus, I have been able to
-			work with different technologies making use of the web development full-stack.
+			As a full-stack developer, I am experienced in a wide range of technologies and am comfortable taking responsibility for major commercial projects.
+			I have also been recognized for giving input to UI/UX projects and have a high level of proficiency in JavaScript, using Vue.js combined with a
+			variety of CSS frameworks like Less, Sass, Tailwind CSS and, vanilla CSS.
 		</p>
 		<div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
 

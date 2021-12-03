@@ -2,7 +2,9 @@
 		<div class="lg:gap-x-8 lg:grid lg:grid-cols-3">
 			<div>
 				<p class="mt-2 section-title">Skills</p>
-				<p class="mt-4 text-lg text-gray-500">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.</p>
+				<p class="mt-4 text-lg text-gray-500">
+					I am a passionate learner and have specialized in PHP, including in-depth use of Laravel and Symfony components, as well as Golang and NodeJS
+				</p>
 			</div>
 			<div class="mt-12 lg:mt-0 lg:col-span-2">
 				<dl class="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
