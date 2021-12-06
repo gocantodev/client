@@ -1,11 +1,11 @@
 <script setup lang="ts">
 	import Menu from "./Menu"
 	import { PropType, ref } from 'vue';
-	import { Author } from "../Entity";
+	import { Profile } from "../../contract/Profile";
 
 	defineProps({
 		author: {
-			type: Object as PropType<Author>,
+			type: Object as PropType<Profile>,
 			required: true,
 		}
 	})
