@@ -1,7 +1,7 @@
 <script setup lang="ts">
 	import Menu from "./Menu"
 	import { PropType, ref } from 'vue';
-	import { Profile } from "../../Contract/Profile";
+	import { Profile } from "../../contract/Profile";
 
 	defineProps({
 		author: {

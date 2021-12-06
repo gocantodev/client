@@ -1,5 +1,5 @@
 <script setup lang="ts">
-	import { Projects } from "../Entity/OpenSourceCollection";
+	import { Projects } from "../entity/OpenSourceProjects";
 </script>
 
 <template>

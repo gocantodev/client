@@ -1,18 +1,18 @@
 <script setup lang="ts">
-	import Navigation from './Component/Navigation/Bar.vue'
-	import Experience from './Component/Experience.vue'
-	import Hero from './Component/Hero.vue'
-	import Skills from './Component/Skills.vue'
-	import Open from './Component/OpenSource.vue'
-	import Footer from './Component/Footer.vue'
+	import NavBar from './component/navigation/navBar.vue'
+	import Experience from './component/experience.vue'
+	import Hero from './component/hero.vue'
+	import Skills from './component/skills.vue'
+	import Open from './component/openSource.vue'
+	import Footer from './component/footer.vue'
 
-	import { Author } from './Entity/Author'
+	import { Author } from './entity/Author'
 </script>
 
 <template>
 	<div class="min-h-full">
 
-		<Navigation :author="Author"></Navigation>
+		<NavBar :author="Author"></NavBar>
 
 		<div class="bg-white bg-gray-900">
 			<div class="section-margin">

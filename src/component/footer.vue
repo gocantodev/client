@@ -1,7 +1,7 @@
 <script setup lang="ts">
-	import { Networks } from "../Entity/SocialMediaCollection";
+	import { Networks } from "../entity/SocialMedia";
 
-	import { Profile } from "../Contract/Profile";
+	import { Profile } from "../contract/Profile";
 	import { PropType } from 'vue';
 
 	defineProps({

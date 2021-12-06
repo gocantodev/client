@@ -1,5 +1,5 @@
 <script setup lang="ts">
-	import { Experiences } from "../Entity/ExperiencesCollection";
+	import { Experiences } from "../entity/Experiences";
 </script>
 
 <template>

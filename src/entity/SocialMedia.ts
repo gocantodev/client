@@ -1,4 +1,4 @@
-import { Media } from "../Contract/Media";
+import { Media } from "../contract/Media";
 
 export const Networks:Array<Media> = [
   {
