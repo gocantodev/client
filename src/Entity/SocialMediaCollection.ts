@@ -1,10 +1,6 @@
-interface Media {
-  name: string,
-  url: string,
-  icon: string,
-}
+import { Media } from "../Contract/Media";
 
-export const media:Array<Media> = [
+export const mediaCollection:Array<Media> = [
   {
     name: 'Facebook',
     url: 'https://www.facebook.com/ocantog',

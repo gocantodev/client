@@ -1,28 +1,18 @@
 <script setup lang="ts">
 	import Navigation from './Component/Navigation/Bar.vue'
-	import { Author } from './Component/Entity'
 	import Experience from './Component/Experience.vue'
 	import Hero from './Component/Hero.vue'
 	import Skills from './Component/Skills.vue'
 	import Open from './Component/OpenSource.vue'
 	import Footer from './Component/Footer.vue'
 
-	const author = <Author>{
-		nickname: 'Gus',
-		name: 'Gustavo Ocanto',
-		email: 'info@gocanto.dev',
-		profession: 'Software Engineer',
-	}
-
-	defineExpose({
-		author: author,
-	})
+	import { Author } from './Entity/Author'
 </script>
 
 <template>
 	<div class="min-h-full">
 
-		<Navigation :author="author"></Navigation>
+		<Navigation :author="Author"></Navigation>
 
 		<div class="bg-white bg-gray-900">
 			<div class="section-margin">
@@ -47,7 +37,7 @@
 		</section>
 
 		<div class="section-margin">
-			<Footer></Footer>
+			<Footer :author="Author"></Footer>
 		</div>
 
 	</div>
