@@ -16,7 +16,7 @@
 
 		<div class="bg-white bg-gray-900">
 			<div class="section-margin">
-				<Hero></Hero>
+				<Hero :author="Author"></Hero>
 			</div>
 		</div>
 

@@ -1,5 +1,16 @@
+<script setup lang="ts">
+	import { Profile } from "../Contract/Profile";
+	import { PropType } from 'vue';
+
+	defineProps({
+		author: {
+			type: Object as PropType<Profile>,
+			required: true,
+		}
+	})
+</script>
+
 <template>
-	<!-- Stats section -->
 	<div class="relative bg-gray-900">
 		<div class="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">
 			<div class="h-full w-full xl:grid xl:grid-cols-2">
@@ -13,9 +24,9 @@
 		<div class="lg:max-w-7xl max-w-4xl mx-auto xl:gap-x-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense">
 			<div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
 				<h2 class="text-sm font-semibold tracking-wide uppercase">
-					<span class="text-yellow-500">Hi, I am Gus!</span>
+					<span class="text-yellow-500">Hi, I am {{ author.nickname }}!</span>
 				</h2>
-				<p class="mt-5 text-lg text-gray-300">I'm a full-stack Software Engineer who has been building web technologies for more than a decade.</p>
+				<p class="mt-5 text-lg text-gray-300">I'm a full-stack {{ author.profession }} who has been building web technologies for more than a decade.</p>
 				<p class="mt-5 text-lg text-gray-300">I like to work in environments where my critical and analytical thinking, entrepreneurial mindset, and passion for my work will contribute to a team.</p>
 				<div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
 					<p>
