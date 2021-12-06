@@ -1,4 +1,4 @@
 import response from "../assets/data/experience.json";
 import { Experience } from "../Contract/Experience";
 
-export const experiencesCollection:Array<Experience> = response
+export const Experiences:Array<Experience> = response

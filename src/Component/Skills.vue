@@ -1,5 +1,5 @@
 <script setup lang="ts">
-	import { skills } from "../Entity/SkillsCollection";
+	import { Skills } from "../Entity/SkillsCollection";
 </script>
 
 <template>
@@ -15,7 +15,7 @@
 
 			<div class="mt-12 lg:mt-0 lg:col-span-2">
 				<dl class="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
-					<div class="relative" v-for="skill in skills">
+					<div class="relative" v-for="skill in Skills">
 						<dt>
 							<!-- Heroicon name: outline/check -->
 							<svg class="absolute h-6 w-6 text-pink-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">

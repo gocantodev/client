@@ -1,5 +1,5 @@
 <script setup lang="ts">
-	import { mediaCollection } from "../Entity/SocialMediaCollection";
+	import { Networks } from "../Entity/SocialMediaCollection";
 
 	import { Profile } from "../Contract/Profile";
 	import { PropType } from 'vue';
@@ -17,7 +17,7 @@
 		<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
 			<div class="flex justify-center space-x-6 md:order-2">
 				<a
-					v-for="media in mediaCollection"
+					v-for="media in Networks"
 					:key="media.name"
 					target="_blank"
 					:href="media.url"

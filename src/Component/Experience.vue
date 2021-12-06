@@ -1,5 +1,5 @@
 <script setup lang="ts">
-	import { experiencesCollection } from "../Entity/ExperiencesCollection";
+	import { Experiences } from "../Entity/ExperiencesCollection";
 </script>
 
 <template>
@@ -16,7 +16,7 @@
 
 		<div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
 
-			<div v-for="experience in experiencesCollection">
+			<div v-for="experience in Experiences">
 				<div class="icon">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 						<path

@@ -1,6 +1,6 @@
 import { Media } from "../Contract/Media";
 
-export const mediaCollection:Array<Media> = [
+export const Networks:Array<Media> = [
   {
     name: 'Facebook',
     url: 'https://www.facebook.com/ocantog',
