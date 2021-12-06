@@ -5,6 +5,5 @@ export interface Experience {
 }
 
 export interface ExperienceIcon {
-  ref: string,
   paths: Array<string>
 }
