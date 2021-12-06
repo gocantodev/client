@@ -1,9 +1,7 @@
+import { Icon } from './Icon'
+
 export interface Experience {
   title: string,
   description: string,
-  icon: ExperienceIcon
-}
-
-export interface ExperienceIcon {
-  paths: Array<string>
+  icon: Icon
 }
