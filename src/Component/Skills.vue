@@ -1,10 +1,5 @@
 <script setup lang="ts">
 	import { skills } from "../Entity/SkillsCollection";
-	import {onMounted} from "vue";
-
-	onMounted(() => {
-		console.log('-->', skills)
-	})
 </script>
 
 <template>

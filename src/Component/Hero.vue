@@ -4,7 +4,7 @@
 		<div class="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">
 			<div class="h-full w-full xl:grid xl:grid-cols-2">
 				<div class="h-full xl:relative xl:col-start-2">
-					<img class="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0" src="../assets/avatar.jpg" alt="People working on laptops">
+					<img class="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0" src="../assets/image/avatar.jpg" alt="People working on laptops">
 					<div aria-hidden="true" class="absolute bg-gradient-to-b from-gray-900 h-32 top-0 xl:bg-gradient-to-l xl:h-full xl:inset-y-0 xl:right-0 xl:w-32"></div>
 					<div aria-hidden="true" class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"></div>
 				</div>
