@@ -1,11 +1,11 @@
-export interface OpenSource {
+export interface Project {
   name: string,
   url: string,
   description: string,
   technology: string,
-  icon: OpenSourceIcon
+  icon: ProjectIcon
 }
 
-export interface OpenSourceIcon {
+export interface ProjectIcon {
   paths: Array<string>
 }

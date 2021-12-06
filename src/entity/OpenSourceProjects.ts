@@ -1,4 +1,4 @@
 import response from "../assets/data/open-source.json";
-import { OpenSource } from "../contract/OpenSource";
+import { Project } from "../contract/Project";
 
-export const Projects:Array<OpenSource> = response
+export const Projects:Array<Project> = response
