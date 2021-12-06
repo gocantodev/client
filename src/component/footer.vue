@@ -19,12 +19,20 @@
 				<a
 					v-for="media in Networks"
 					:key="media.name"
+					:title="media.name"
 					target="_blank"
 					:href="media.url"
 					class="text-gray-400 hover:text-gray-500"
 				>
 					<span class="sr-only">{{ media.name }}</span>
-					<span v-html="media.icon"></span>
+					<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+						<path
+							v-for="path in media.icon.paths"
+							fill-rule="evenodd"
+							:d="path"
+							clip-rule="evenodd"
+						/>
+					</svg>
 				</a>
 			</div>
 			<div class="mt-8 md:mt-0 md:order-1">
