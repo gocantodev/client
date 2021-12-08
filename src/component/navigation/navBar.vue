@@ -17,10 +17,7 @@
         isOpen.value = !isOpen.value
     }
 
-    const getItemClassFor = (
-        page: string,
-        isMobile = false
-    ): string => {
+    const getItemClassFor = (page: string, isMobile = false): string => {
         const prefix = isMobile ? "mobile-" : ""
 
         if (page === current.value) {

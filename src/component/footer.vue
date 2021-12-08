@@ -61,7 +61,7 @@
                     >
                         <path
                             v-for="(path, index) in media.icon.paths"
-							:key="index"
+                            :key="index"
                             fill-rule="evenodd"
                             :d="path"
                             clip-rule="evenodd"
