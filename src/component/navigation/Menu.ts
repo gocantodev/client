@@ -3,7 +3,9 @@ interface Item {
   slug: string,
 }
 
-const Menu:Array<Item> = [
+export const CONTACT_ME_SLUG:string = 'contact-me'
+
+export const Menu:Array<Item> = [
   {
     label: 'Experience',
     slug: 'experience',
@@ -18,8 +20,6 @@ const Menu:Array<Item> = [
   },
   {
     label: 'Contact Me',
-    slug: 'contact-me',
+    slug: CONTACT_ME_SLUG,
   },
 ]
-
-export default Menu

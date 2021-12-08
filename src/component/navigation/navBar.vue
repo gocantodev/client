@@ -1,26 +1,20 @@
 <script setup lang="ts">
-	import Menu from "./Menu"
+	import { Menu, CONTACT_ME_SLUG } from "./Menu"
 	import { PropType, ref } from 'vue';
 	import { Profile } from "../../contract/Profile";
 
-	defineProps({
+	const props = defineProps({
 		author: {
 			type: Object as PropType<Profile>,
 			required: true,
 		}
 	})
 
-	const isOpen = ref(false)
 	const current = ref('')
+	const isOpen = ref(false)
 
 	const toggleMenu = (): void => {
 		isOpen.value = !isOpen.value
-	}
-
-	const setCurrentOption = (option:string): void => {
-		current.value = option
-
-		window.location.href = `#${option}`
 	}
 
 	const getItemClassFor = (page:string, isMobile:boolean = false): string => {
@@ -35,6 +29,14 @@
 
 	const reset = () => {
 		window.location.href = '/'
+	}
+
+	const goTo = (slug:string): void => {
+		current.value = slug
+
+		window.location.href = slug === CONTACT_ME_SLUG
+			? `mailto:${props.author.email}`
+			: `#${slug}`
 	}
 </script>
 
@@ -68,7 +70,7 @@
 								:href="`#${item.slug}`"
 								:key="item.slug"
 								:class="getItemClassFor(item.slug)"
-								@click.prevent="setCurrentOption(item.slug)"
+								@click.prevent="goTo(item.slug)"
 							>
 								{{ item.label }}
 							</a>
@@ -86,7 +88,7 @@
 					:href="`#${item.slug}`"
 					:key="item.slug"
 					:class="getItemClassFor(item.slug, true)"
-					@click.prevent="setCurrentOption(item.slug)"
+					@click.prevent="goTo(item.slug)"
 				>
 					{{ item.label }}
 				</a>
