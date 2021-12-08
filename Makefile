@@ -1,7 +1,7 @@
 .PHONY: serve site
 
 lint:
-	eslint --ext .js,.vue --ignore-path .gitignore --fix src
+	npx eslint "src/**/*.{js,vue,ts}"
 
 format:
 	npx prettier src  --write
