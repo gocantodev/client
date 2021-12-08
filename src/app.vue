@@ -1,12 +1,12 @@
 <script setup lang="ts">
-    import NavBar from "./component/navigation/navBar.vue"
-    import Experience from "./component/experience.vue"
-    import Hero from "./component/hero.vue"
-    import Skills from "./component/skills.vue"
-    import Open from "./component/openSource.vue"
-    import Footer from "./component/footer.vue"
+    import NavBar from "@/component/navigation/navBar.vue"
+    import Experience from "@/component/experience.vue"
+    import Hero from "@/component/hero.vue"
+    import Skills from "@/component/skills.vue"
+    import Open from "@/component/openSource.vue"
+    import Footer from "@/component/footer.vue"
 
-    import { Author } from "./entity/Author"
+    import { Author } from "@/entity/Author"
 </script>
 
 <template>
