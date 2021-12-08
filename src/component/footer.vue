@@ -25,8 +25,8 @@
                 <a
                     href="javascript:void(0)"
                     title="back to top"
-                    @click.prevent="goTop"
                     class="text-gray-400 hover:text-gray-500"
+                    @click.prevent="goTop"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,8 @@
                         aria-hidden="true"
                     >
                         <path
-                            v-for="path in media.icon.paths"
+                            v-for="(path, index) in media.icon.paths"
+							:key="index"
                             fill-rule="evenodd"
                             :d="path"
                             clip-rule="evenodd"

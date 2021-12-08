@@ -19,7 +19,7 @@
 
     const getItemClassFor = (
         page: string,
-        isMobile: boolean = false
+        isMobile = false
     ): string => {
         const prefix = isMobile ? "mobile-" : ""
 

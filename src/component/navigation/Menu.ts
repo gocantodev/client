@@ -3,7 +3,7 @@ interface Item {
     slug: string
 }
 
-export const CONTACT_ME_SLUG: string = "contact-me"
+export const CONTACT_ME_SLUG = "contact-me"
 
 export const Menu: Array<Item> = [
     {
