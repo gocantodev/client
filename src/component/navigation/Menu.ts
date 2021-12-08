@@ -1,20 +1,24 @@
 interface Item {
   label: string,
-  option: string,
+  slug: string,
 }
 
 const Menu:Array<Item> = [
   {
     label: 'Experience',
-    option: 'experience',
+    slug: 'experience',
   },
   {
     label: 'Skills',
-    option: 'skills',
+    slug: 'skills',
   },
   {
     label: 'Open Source',
-    option: 'open-source',
+    slug: 'open-source',
+  },
+  {
+    label: 'Contact Me',
+    slug: 'contact-me',
   },
 ]
 
