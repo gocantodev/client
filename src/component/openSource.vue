@@ -19,7 +19,11 @@
                 <div
                     class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
                 >
-                    <div v-for="project in Projects" :key="project.uuid" class="pt-6">
+                    <div
+                        v-for="project in Projects"
+                        :key="project.uuid"
+                        class="pt-6"
+                    >
                         <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
                             <div class="-mt-6">
                                 <div>
@@ -35,9 +39,9 @@
                                             aria-hidden="true"
                                         >
                                             <path
-                                                v-for="(path, index) in project.icon
-                                                    .paths"
-												:key="index"
+                                                v-for="(path, index) in project
+                                                    .icon.paths"
+                                                :key="index"
                                                 stroke-linecap="round"
                                                 stroke-linejoin="round"
                                                 stroke-width="2"

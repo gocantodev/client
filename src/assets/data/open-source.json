@@ -12,7 +12,7 @@
         }
     },
     {
-        "uuid":  "6c5c9fef-025b-4b37-9724-9a55f3eddd70",
+        "uuid": "6c5c9fef-025b-4b37-9724-9a55f3eddd70",
         "name": "converter",
         "description": "Immutable PHP currency converter that's data-agnostic",
         "url": "https://github.com/gocanto/converter",
@@ -24,7 +24,7 @@
         }
     },
     {
-        "uuid":  "",
+        "uuid": "",
         "name": "converter",
         "description": "Currency converter that's data-agnostic",
         "url": "https://github.com/voyago/converter",
@@ -36,7 +36,7 @@
         }
     },
     {
-        "uuid":  "b24edf30-88b7-4465-ae7d-f7223f316189",
+        "uuid": "b24edf30-88b7-4465-ae7d-f7223f316189",
         "name": "google-autocomplete",
         "description": "Google Autocomplete Vue Component",
         "url": "https://github.com/gocanto/google-autocomplete",
@@ -49,7 +49,7 @@
         }
     },
     {
-        "uuid":  "2ef33d8f-58b7-43ce-853f-22dc15f8665d",
+        "uuid": "2ef33d8f-58b7-43ce-853f-22dc15f8665d",
         "name": "vuemit",
         "description": "The smallest Vue.js events handler",
         "url": "https://github.com/gocanto/vuemit",
@@ -61,7 +61,7 @@
         }
     },
     {
-        "uuid":  "c0997a14-90f3-47e0-bffc-49248d452626",
+        "uuid": "c0997a14-90f3-47e0-bffc-49248d452626",
         "name": "laravel-simple-pdf",
         "description": "Simple laravel PDF generator",
         "url": "https://github.com/gocanto/laravel-simple-pdf",

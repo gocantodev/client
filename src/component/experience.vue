@@ -30,7 +30,7 @@
                     >
                         <path
                             v-for="(path, index) in experience.icon.paths"
-							:key="`child-${index}`"
+                            :key="`child-${index}`"
                             stroke-linecap="round"
                             stroke-linejoin="round"
                             stroke-width="2"
