@@ -5,7 +5,7 @@
 <template>
     <div>
         <span class="section-title">
-            Experience <a href="#experience" id="experience"></a>
+            Experience <a id="experience" href="#experience"></a>
         </span>
 
         <p class="mt-4 text-gray-400 text-md">
@@ -20,7 +20,7 @@
         <div
             class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16"
         >
-            <div v-for="experience in Experiences">
+            <div v-for="experience in Experiences" :key="experience.uuid">
                 <div class="icon">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,8 @@
                         stroke="currentColor"
                     >
                         <path
-                            v-for="path in experience.icon.paths"
+                            v-for="(path, index) in experience.icon.paths"
+							:key="`child-${index}`"
                             stroke-linecap="round"
                             stroke-linejoin="round"
                             stroke-width="2"

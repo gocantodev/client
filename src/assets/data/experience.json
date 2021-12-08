@@ -1,5 +1,6 @@
 [
     {
+        "uuid": "87e8ca06-e9db-4627-90d3-ad62fcbbc83f",
         "title": "Payments",
         "description": "I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing\ncustomers or team members to understand their needs to build customizable e-stores.",
         "icon": {
@@ -9,6 +10,7 @@
         }
     },
     {
+        "uuid":  "45656d7d-eec5-4852-b837-608b26015e81",
         "title": "E-Commerce",
         "description": "I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing\ncustomers or team members to understand their needs to build customizable e-stores.",
         "icon": {
@@ -18,6 +20,7 @@
         }
     },
     {
+        "uuid":  "30910389-fd68-4e23-b4b6-fed831adc748",
         "title": "Inventory",
         "description": "I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing\ncustomers or team members to understand their needs to build customizable e-stores.",
         "icon": {
@@ -27,6 +30,7 @@
         }
     },
     {
+        "uuid":  "d22dd90d-93aa-44fc-9e7d-83cf47c094f1",
         "title": "APIs",
         "description": "I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing\ncustomers or team members to understand their needs to build customizable e-stores.",
         "icon": {
@@ -36,6 +40,7 @@
         }
     },
     {
+        "uuid":  "",
         "title": "Ticketing",
         "description": "I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing\ncustomers or team members to understand their needs to build customizable e-stores.",
         "icon": {
@@ -45,6 +50,7 @@
         }
     },
     {
+        "uuid":  "0722c087-9b49-4c26-9b99-b048a1828ab0",
         "title": "Saas",
         "description": "I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing\ncustomers or team members to understand their needs to build customizable e-stores.",
         "icon": {
@@ -52,6 +58,7 @@
         }
     },
     {
+        "uuid":  "c7991fc0-0ac5-4236-9884-2bfa9651478e",
         "title": "Capacity",
         "description": "I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing\ncustomers or team members to understand their needs to build customizable e-stores.",
         "icon": {
@@ -61,6 +68,7 @@
         }
     },
     {
+        "uuid":  "63257b4a-2d52-4b70-a070-cdbe42656894",
         "title": "POS",
         "description": "I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing\ncustomers or team members to understand their needs to build customizable e-stores.",
         "icon": {

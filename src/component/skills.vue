@@ -6,7 +6,7 @@
     <div class="lg:gap-x-8 lg:grid lg:grid-cols-3">
         <div>
             <span class="mt-2 section-title">
-                Skills <a href="#skills" id="skills"></a>
+                Skills <a id="skills" href="#skills"></a>
             </span>
             <p class="mt-4 text-lg text-gray-500">
                 I am a passionate learner and have specialized in PHP, including
@@ -19,7 +19,7 @@
             <dl
                 class="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8"
             >
-                <div class="relative" v-for="skill in Skills">
+                <div v-for="skill in Skills" :key="skill.uuid" class="relative">
                     <dt>
                         <!-- Heroicon name: outline/check -->
                         <svg

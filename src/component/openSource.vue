@@ -7,7 +7,7 @@
         <div class="mx-auto max-w-md text-center sm:max-w-3xl lg:max-w-7xl">
             <span class="mt-2 section-title">
                 Open Source Projects
-                <a href="#open-source" id="open-source"></a>
+                <a id="open-source" href="#open-source"></a>
             </span>
 
             <p class="mt-5 max-w-prose mx-auto text-gray-400 text-md">
@@ -19,7 +19,7 @@
                 <div
                     class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
                 >
-                    <div class="pt-6" v-for="project in Projects">
+                    <div v-for="project in Projects" :key="project.uuid" class="pt-6">
                         <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
                             <div class="-mt-6">
                                 <div>
@@ -35,8 +35,9 @@
                                             aria-hidden="true"
                                         >
                                             <path
-                                                v-for="path in project.icon
+                                                v-for="(path, index) in project.icon
                                                     .paths"
+												:key="index"
                                                 stroke-linecap="round"
                                                 stroke-linejoin="round"
                                                 stroke-width="2"
