@@ -27,7 +27,7 @@
 		return `${prefix}menu-item`
 	}
 
-	const reset = () => {
+	const reset = ():void => {
 		window.location.href = '/'
 	}
 

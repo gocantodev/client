@@ -11,7 +11,7 @@
 		}
 	})
 
-	const goTop = () => {
+	const goTop = ():void => {
 		window.scrollTo(0, 0)
 	}
 </script>
