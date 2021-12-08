@@ -1,49 +1,61 @@
 <script setup lang="ts">
-	import { Experiences } from "../entity/Experiences";
+    import { Experiences } from "../entity/Experiences"
 </script>
 
 <template>
-	<div>
-		<span class="section-title">
-			Experience <a href="#experience" id="experience"></a>
-		</span>
+    <div>
+        <span class="section-title">
+            Experience <a href="#experience" id="experience"></a>
+        </span>
 
-		<p class="mt-4 text-gray-400 text-md">
-			As a full-stack developer, I am experienced in a wide range of technologies and am comfortable taking responsibility for major commercial projects.
-			I have also been recognized for giving input to UI/UX projects and have a high level of proficiency in JavaScript, using Vue.js combined with a
-			variety of CSS frameworks like Less, Sass, Tailwind CSS and, vanilla CSS.
-		</p>
+        <p class="mt-4 text-gray-400 text-md">
+            As a full-stack developer, I am experienced in a wide range of
+            technologies and am comfortable taking responsibility for major
+            commercial projects. I have also been recognized for giving input to
+            UI/UX projects and have a high level of proficiency in JavaScript,
+            using Vue.js combined with a variety of CSS frameworks like Less,
+            Sass, Tailwind CSS and, vanilla CSS.
+        </p>
 
-		<div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
-
-			<div v-for="experience in Experiences">
-				<div class="icon">
-					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-						<path
-							v-for="path in experience.icon.paths"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							:d="path"
-						/>
-					</svg>
-				</div>
-				<div class="mt-6">
-					<h3 class="font-medium text-gray-900 text-lg">{{ experience.title }}</h3>
-					<p class="mt-2 text-base text-gray-400">{{ experience.description }}</p>
-				</div>
-			</div>
-
-		</div>
-	</div>
+        <div
+            class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16"
+        >
+            <div v-for="experience in Experiences">
+                <div class="icon">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            v-for="path in experience.icon.paths"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            :d="path"
+                        />
+                    </svg>
+                </div>
+                <div class="mt-6">
+                    <h3 class="font-medium text-gray-900 text-lg">
+                        {{ experience.title }}
+                    </h3>
+                    <p class="mt-2 text-base text-gray-400">
+                        {{ experience.description }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
 
 <style scoped>
-.icon {
-	@apply flex items-center justify-center h-12 w-12 rounded-md bg-gray-100
-}
+    .icon {
+        @apply flex items-center justify-center h-12 w-12 rounded-md bg-gray-100;
+    }
 
-.icon svg {
-	@apply h-6 w-6 text-pink-500
-}
+    .icon svg {
+        @apply h-6 w-6 text-pink-500;
+    }
 </style>

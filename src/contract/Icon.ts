@@ -1,3 +1,3 @@
 export interface Icon {
-  paths: Array<string>
+    paths: Array<string>
 }

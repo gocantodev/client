@@ -1,7 +1,7 @@
-import { Icon } from './Icon'
+import { Icon } from "./Icon"
 
 export interface Experience {
-  title: string,
-  description: string,
-  icon: Icon
+    title: string
+    description: string
+    icon: Icon
 }
