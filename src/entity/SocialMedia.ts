@@ -1,4 +1,4 @@
-import { Media } from "../contract/Media";
-import response from "../assets/data/social-media.json";
+import { Media } from "../contract/Media"
+import response from "../assets/data/social-media.json"
 
-export const Networks:Array<Media> = response
+export const Networks: Array<Media> = response

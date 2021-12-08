@@ -3,31 +3,30 @@
 @tailwind utilities;
 
 .brand-gradient-colors {
-  @apply from-pink-500 via-red-500 to-yellow-500
+    @apply from-pink-500 via-red-500 to-yellow-500;
 }
 
 .nav-bg {
-  @apply bg-gradient-to-r brand-gradient-colors
+    @apply bg-gradient-to-r brand-gradient-colors;
 }
 
 .section-margin {
-  @apply max-w-7xl mx-auto lg:px-8 px-4 sm:px-6
+    @apply max-w-7xl mx-auto lg:px-8 px-4 sm:px-6;
 }
 
 .section-title {
-  @apply
-      bg-clip-text
+    @apply bg-clip-text
       bg-gradient-to-r
       font-extrabold
       text-transparent
       text-3xl
-      brand-gradient-colors
+      brand-gradient-colors;
 }
 
 .divider {
-  @apply nav-bg h-1 shadow
+    @apply nav-bg h-1 shadow;
 }
 
 .scroll-smooth {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }

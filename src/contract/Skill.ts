@@ -1,4 +1,5 @@
 export interface Skill {
-  name: string,
-  description: string
+    uuid: string
+    name: string
+    description: string
 }

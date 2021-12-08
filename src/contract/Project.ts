@@ -1,9 +1,10 @@
-import { Icon } from './Icon'
+import { Icon } from "./Icon"
 
 export interface Project {
-  name: string,
-  url: string,
-  description: string,
-  technology: string,
-  icon: Icon
+    uuid: string
+    name: string
+    url: string
+    description: string
+    technology: string
+    icon: Icon
 }
