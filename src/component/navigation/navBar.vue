@@ -1,26 +1,20 @@
 <script setup lang="ts">
-	import Menu from "./Menu"
+	import { Menu, CONTACT_ME_SLUG } from "./Menu"
 	import { PropType, ref } from 'vue';
 	import { Profile } from "../../contract/Profile";
 
-	defineProps({
+	const props = defineProps({
 		author: {
 			type: Object as PropType<Profile>,
 			required: true,
 		}
 	})
 
-	const isOpen = ref(false)
 	const current = ref('')
+	const isOpen = ref(false)
 
 	const toggleMenu = (): void => {
 		isOpen.value = !isOpen.value
-	}
-
-	const setCurrentOption = (option:string): void => {
-		current.value = option
-
-		window.location.href = `#${option}`
 	}
 
 	const getItemClassFor = (page:string, isMobile:boolean = false): string => {
@@ -31,6 +25,18 @@
 		}
 
 		return `${prefix}menu-item`
+	}
+
+	const reset = () => {
+		window.location.href = '/'
+	}
+
+	const goTo = (slug:string): void => {
+		current.value = slug
+
+		window.location.href = slug === CONTACT_ME_SLUG
+			? `mailto:${props.author.email}`
+			: `#${slug}`
 	}
 </script>
 
@@ -51,7 +57,7 @@
 					</button>
 				</div>
 				<div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-					<div class="flex-shrink-0 flex items-center text-white">
+					<div @click="reset" title="refresh" class="cursor-pointer flex-shrink-0 flex items-center text-white">
 						<svg xmlns="http://www.w3.org/2000/svg" class="h-8 hidden w-8 md:block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
 						</svg>
@@ -61,10 +67,10 @@
 						<div class="flex space-x-4">
 							<a
 								v-for="item in Menu"
-								:href="`#${item.option}`"
-								:key="item.option"
-								:class="getItemClassFor(item.option)"
-								@click.prevent="setCurrentOption(item.option)"
+								:href="`#${item.slug}`"
+								:key="item.slug"
+								:class="getItemClassFor(item.slug)"
+								@click.prevent="goTo(item.slug)"
 							>
 								{{ item.label }}
 							</a>
@@ -79,10 +85,10 @@
 			<div class="pt-2 pb-3 space-y-1">
 				<a
 					v-for="item in Menu"
-					:href="`#${item.option}`"
-					:key="item.option"
-					:class="getItemClassFor(item.option, true)"
-					@click.prevent="setCurrentOption(item.option)"
+					:href="`#${item.slug}`"
+					:key="item.slug"
+					:class="getItemClassFor(item.slug, true)"
+					@click.prevent="goTo(item.slug)"
 				>
 					{{ item.label }}
 				</a>

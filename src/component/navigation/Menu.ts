@@ -1,21 +1,25 @@
 interface Item {
   label: string,
-  option: string,
+  slug: string,
 }
 
-const Menu:Array<Item> = [
+export const CONTACT_ME_SLUG:string = 'contact-me'
+
+export const Menu:Array<Item> = [
   {
     label: 'Experience',
-    option: 'experience',
+    slug: 'experience',
   },
   {
     label: 'Skills',
-    option: 'skills',
+    slug: 'skills',
   },
   {
     label: 'Open Source',
-    option: 'open-source',
+    slug: 'open-source',
+  },
+  {
+    label: 'Contact Me',
+    slug: CONTACT_ME_SLUG,
   },
 ]
-
-export default Menu
