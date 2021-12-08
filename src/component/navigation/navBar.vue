@@ -54,10 +54,10 @@
                     <!-- Mobile menu button-->
                     <button
                         type="button"
-                        @click="toggleMenu()"
                         class="mobile-menu-button"
                         aria-controls="mobile-menu"
                         aria-expanded="false"
+                        @click="toggleMenu()"
                     >
                         <span class="sr-only">Open main menu</span>
                         <svg
@@ -96,9 +96,9 @@
                     class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
                 >
                     <div
-                        @click="reset"
                         title="refresh"
                         class="cursor-pointer flex-shrink-0 flex items-center text-white"
+                        @click="reset"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -120,8 +120,8 @@
                         <div class="flex space-x-4">
                             <a
                                 v-for="item in Menu"
-                                :href="`#${item.slug}`"
                                 :key="item.slug"
+                                :href="`#${item.slug}`"
                                 :class="getItemClassFor(item.slug)"
                                 @click.prevent="goTo(item.slug)"
                             >
@@ -134,12 +134,12 @@
         </div>
 
         <!-- Mobile menu, show/hide based on menu state. -->
-        <div class="sm:hidden bg-white" id="mobile-menu" v-if="isOpen">
+        <div v-if="isOpen" id="mobile-menu" class="sm:hidden bg-white">
             <div class="pt-2 pb-3 space-y-1">
                 <a
                     v-for="item in Menu"
-                    :href="`#${item.slug}`"
                     :key="item.slug"
+                    :href="`#${item.slug}`"
                     :class="getItemClassFor(item.slug, true)"
                     @click.prevent="goTo(item.slug)"
                 >
