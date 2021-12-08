@@ -10,12 +10,22 @@
 			required: true,
 		}
 	})
+
+	const goTop = () => {
+		window.scrollTo(0, 0)
+	}
 </script>
 
 <template>
 	<section class="border-t border-gray-100 mt-8">
 		<div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
 			<div class="flex justify-center space-x-6 md:order-2">
+				<a href="javascript:void(0)" title="back to top" @click.prevent="goTop" class="text-gray-400 hover:text-gray-500">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z" />
+					</svg>
+				</a>
+
 				<a
 					v-for="media in Networks"
 					:key="media.name"
