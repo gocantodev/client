@@ -1,4 +1,4 @@
-.PHONY: serve site
+.PHONY: utilities
 
 lint:
 	npx eslint "src/**/*.{js,vue,ts}"
