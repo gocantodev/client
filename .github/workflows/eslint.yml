@@ -1,5 +1,5 @@
 on: [push, pull_request]
-name: prettier
+name: eslint
 jobs:
     build:
         runs-on: ubuntu-latest
@@ -8,7 +8,7 @@ jobs:
             matrix:
                 node: ['16' ]
 
-        name: Node ${{ matrix.node }} - prettier
+        name: Node ${{ matrix.node }} - eslint
 
         steps:
             - uses: actions/checkout@v2
@@ -21,7 +21,7 @@ jobs:
             - name: Cache node modules
               uses: actions/cache@v2
               env:
-                  cache-name: cache-prettier-node-modules
+                  cache-name: cache-eslint-node-modules
               with:
                   path: ~/.npm
                   key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
@@ -33,14 +33,5 @@ jobs:
             - name: Install dependencies
               run: npm install
 
-            - name: Run prettier
-              run: make format
-
-            - name: Restore the [package-lock.json] file
-              run: git checkout HEAD package-lock.json
-
-            - name: Commit changes
-              uses: stefanzweifel/git-auto-commit-action@v4.0.0
-              with:
-                commit_message: formatting
-                commit_options: '--no-verify'
+            - name: Run eslint
+              run: make lint
