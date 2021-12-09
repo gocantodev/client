@@ -1,5 +1,18 @@
-on: [push, pull_request]
 name: prettier
+
+on:
+    push:
+        branches-ignore:
+            - main
+        tags:
+            - v*
+
+    pull_request:
+        branches-ignore:
+            - main
+        tags:
+            - v*
+
 jobs:
     build:
         runs-on: ubuntu-latest
