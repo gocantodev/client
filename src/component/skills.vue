@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import { Skills } from "../entity/Skills"
+    import { Skills } from "@entity/Skills"
 </script>
 
 <template>

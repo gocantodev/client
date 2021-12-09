@@ -3,5 +3,13 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()]
+    resolve:{
+        alias:[
+            { find: '@', replacement: '/src' },
+            { find: '@component', replacement: '/src/component' },
+            { find: '@entity', replacement: '/src/entity' },
+            { find: '@contract', replacement: '/src/contract' },
+        ],
+    },
+    plugins: [vue()]
 })

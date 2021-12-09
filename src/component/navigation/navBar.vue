@@ -1,7 +1,7 @@
 <script setup lang="ts">
     import { Menu, CONTACT_ME_SLUG } from "./Menu"
     import { PropType, ref } from "vue"
-    import { Profile } from "../../contract/Profile"
+    import { Profile } from "@contract/Profile"
 
     const props = defineProps({
         author: {
