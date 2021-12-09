@@ -7,7 +7,8 @@ export default defineConfig({
         alias:[
             { find: '@', replacement: '/src' },
             { find: '@component', replacement: '/src/component' },
-            { find: '@entity', replacement: '/src/entity' }
+            { find: '@entity', replacement: '/src/entity' },
+            { find: '@contract', replacement: '/src/contract' },
         ],
     },
     plugins: [vue()]
