@@ -21,7 +21,7 @@ that contains all the necessary commands to get you up and running.
 ```bash
 # within your terminal
 git clone git@github.com:gocantodev/app.git
-cd profile
+cd app
 
 make serve #local development
 make build #production files
