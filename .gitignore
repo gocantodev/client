@@ -4,6 +4,3 @@ node_modules
 dist-ssr
 *.local
 
-!/dist/.gitkeep
-dist/*
-
