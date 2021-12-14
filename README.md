@@ -1,6 +1,6 @@
 [![prettier](https://github.com/gocantodev/client/actions/workflows/prettier.yml/badge.svg?branch=main)](https://github.com/gocantodev/client/actions/workflows/prettier.yml)
 [![eslint](https://github.com/gocantodev/client/actions/workflows/eslint.yml/badge.svg?branch=main)](https://github.com/gocantodev/client/actions/workflows/eslint.yml)
-[![build vue app](https://github.com/gocantodev/client/actions/workflows/build-vue-app.yml/badge.svg?branch=main)](https://github.com/gocantodev/client/actions/workflows/build-vue-app.yml)
+[![release](https://github.com/gocantodev/client/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/gocantodev/client/actions/workflows/build-vue-app.yml)
 
 ### About
 
