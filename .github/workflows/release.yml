@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: release
 
 on:
     push:
@@ -14,7 +14,7 @@ jobs:
               with:
                   fetch-depth: 1
 
-            - name: Install
+            - name: Install dependencies
               run: npm ci
 
             - name: Build
