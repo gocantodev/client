@@ -37,8 +37,15 @@ jobs:
             - name: Build App
               run: make build
 
-            - name: Push the code
+            - name: Step with changes
               run: |
+                  git config --local user.email "gustavoocanto@gmail.com"
+                  git config --local user.name "Gustavo Ocanto"
                   git add dist
                   git commit -m "wip"
                   git push -f git@github.com:gocantodev/website.git gh-pages
+
+            - name: Push changes
+              uses: ad-m/github-push-action@master
+              with:
+                github_token: ${{ secrets.ACCESS_TOKEN }}
