@@ -43,7 +43,7 @@ jobs:
                   git config --local user.name "Gustavo Ocanto"
                   git add dist
                   git commit -m "wip"
-                  git push -f git@github.com:gocantodev/website.git gh-pages
+                  git push -f git@github.com:gocantodev/website.git main:gh-pages
 
             - name: Push changes
               uses: ad-m/github-push-action@master
