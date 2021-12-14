@@ -1,0 +1,38 @@
+name: deploy
+on: [push, pull_request]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        strategy:
+            matrix:
+                node: ['16' ]
+
+        name: Node ${{ matrix.node }} - deploy
+
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Setup node
+              uses: actions/setup-node@v2
+              with:
+                  node-version: ${{ matrix.node }}
+
+            - name: Cache node modules
+              uses: actions/cache@v2
+              env:
+                  cache-name: cache-eslint-node-modules
+              with:
+                  path: ~/.npm
+                  key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+                  restore-keys: |
+                      ${{ runner.os }}-build-${{ env.cache-name }}-
+                      ${{ runner.os }}-build-
+                      ${{ runner.os }}-
+
+            - name: Install dependencies
+              run: npm install
+
+            - name: Build App
+              run: make build
