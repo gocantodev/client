@@ -1,6 +1,5 @@
-[![prettier](https://github.com/gocantodev/app/actions/workflows/prettier.yml/badge.svg?branch=main)](https://github.com/gocantodev/app/actions/workflows/prettier.yml)
-[![eslint](https://github.com/gocantodev/app/actions/workflows/eslint.yml/badge.svg?branch=main)](https://github.com/gocantodev/app/actions/workflows/eslint.yml)
-[![build vue app](https://github.com/gocantodev/app/actions/workflows/build-vue-app.yml/badge.svg?branch=main)](https://github.com/gocantodev/app/actions/workflows/build-vue-app.yml)
+[![prettier](https://github.com/gocantodev/client/actions/workflows/prettier.yml/badge.svg?branch=main)](https://github.com/gocantodev/client/actions/workflows/prettier.yml)
+[![eslint](https://github.com/gocantodev/client/actions/workflows/eslint.yml/badge.svg?branch=main)](https://github.com/gocantodev/client/actions/workflows/eslint.yml)
 
 ### About
 
@@ -15,13 +14,13 @@ it [installed](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) in
 
 ### Building the app
 
-There are many ways you can achieve this, but for your convenience, this app is shipped with a [Makefile](https://github.com/gocantodev/app/blob/main/Makefile)
+There are many ways you can achieve this, but for your convenience, this app is shipped with a [Makefile](https://github.com/gocantodev/client/blob/main/Makefile)
 that contains all the necessary commands to get you up and running.
 
 ```bash
 # within your terminal
-git clone git@github.com:gocantodev/app.git
-cd app
+git clone git@github.com:gocantodev/client.git
+cd client
 
 make serve #local development
 make build #production files
@@ -40,7 +39,7 @@ enhance it.
 
 ## License
 
-Please see [License File](https://github.com/gocantodev/app/blob/main/LICENSE) for more information.
+Please see [License File](https://github.com/gocantodev/client/blob/main/LICENSE) for more information.
 
 ## How can I thank you?
 
