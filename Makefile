@@ -14,3 +14,7 @@ serve:
 
 serve-with-php:
 	cd dist/ && php -S localhost:8000
+
+create-cname:
+	rm -f ./dist/CNAME
+	echo "gocanto.dev" >> ./dist/CNAME

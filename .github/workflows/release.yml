@@ -18,7 +18,9 @@ jobs:
               run: npm ci
 
             - name: Build
-              run: make build
+              run: |
+                make build
+                make create-cname
 
             - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@4.1.7
