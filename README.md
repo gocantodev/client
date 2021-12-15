@@ -4,9 +4,7 @@
 
 ### About
 
-Hi there, I'm Gus! thank you for checking in.
-
-This repository contains the code base that powers my personal website alongside with the one that powers its API (WIP).
+Hi there, I'm Gus! thank you for checking in. This repository contains the code base that powers my personal website alongside.
 
 ### Installation
 
