@@ -27,6 +27,16 @@
     {
         "uuid": "5d43b865-ef4c-41e7-9dfa-3433e3acd6fc",
         "name": "Flexible with Project Management Styles",
-        "description": "Able to deliver large projects using Scrum and Agile methodologies "
+        "description": "Able to deliver large projects using Scrum and Agile methodologies"
+    },
+    {
+        "uuid": "5d43b865-ef4c-41e7-9dfa-3433e3acd6fc",
+        "name": "Leadership & Initiative",
+        "description": "Confident taking full ownership of projects and motivating the team to deliver on time"
+    },
+    {
+        "uuid": "5d43b865-ef4c-41e7-9dfa-3433e3acd6fc",
+        "name": "Good Communicator",
+        "description": "Values and understands the important of clear communication for success of the team"
     }
 ]
