@@ -1,42 +1,32 @@
 [
     {
         "uuid": "cac442f5-a835-484c-bb47-fcdce557f51e",
-        "name": "1 - Invite team members",
-        "description": "You can manage phone, email and chat conversations all from a single mailbox"
+        "name": "Technically Agile & Proficient",
+        "description": "Experienced in PHP, Golang, NodeJS, CSS and Javascript"
     },
     {
         "uuid": "51021780-aef6-4ccd-8e13-18763ce93c6b",
-        "name": "2 - Invite team members",
-        "description": "You can manage phone, email and chat conversations all from a single mailbox"
+        "name": "Highly Adaptable",
+        "description": "Multiple transferable skills across various industries and software applications"
     },
     {
         "uuid": "6060c6bb-a2cd-429a-8959-ec3c2549b2b1",
-        "name": "3 - Invite team members",
-        "description": "You can manage phone, email and chat conversations all from a single mailbox"
+        "name": "Complex Problem Solving",
+        "description": "Ability to apply leadership and big-picture thinking to all stages of product lifecycle"
     },
     {
         "uuid": "75f4c3b7-ac51-471b-a549-7ef10e17aa3b",
-        "name": "4 - Invite team members",
-        "description": "You can manage phone, email and chat conversations all from a single mailbox"
+        "name": "Analytical Thinking",
+        "description": "Skilled at mapping out structured solutions & asking the right questions to sharpen and stress-test products"
     },
     {
         "uuid": "0dc5471d-f716-4b15-8571-1def263447bd",
-        "name": "5 - Invite team members",
-        "description": "You can manage phone, email and chat conversations all from a single mailbox"
+        "name": "Coaching & Collaboration",
+        "description": "Experience developing juniors through regular mentorship and works well with diverse teams"
     },
     {
         "uuid": "5d43b865-ef4c-41e7-9dfa-3433e3acd6fc",
-        "name": "6 - Invite team members",
-        "description": "You can manage phone, email and chat conversations all from a single mailbox"
-    },
-    {
-        "uuid": "cad95c63-dc9d-4774-8527-44fb6e15c481",
-        "name": "7 - Invite team members",
-        "description": "You can manage phone, email and chat conversations all from a single mailbox"
-    },
-    {
-        "uuid": "3c1abfae-4af4-42f9-921f-4c77fe1a6657",
-        "name": "8 - Invite team members",
-        "description": "You can manage phone, email and chat conversations all from a single mailbox"
+        "name": "Flexible with Project Management Styles",
+        "description": "Able to deliver large projects using Scrum and Agile methodologies "
     }
 ]

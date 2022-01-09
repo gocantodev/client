@@ -9,9 +9,9 @@
                 Skills <a id="skills" href="#skills"></a>
             </span>
             <p class="mt-4 text-lg text-gray-500">
-                I am a passionate learner and have specialized in PHP, including
-                in-depth use of Laravel and Symfony components, as well as
-                Golang and NodeJS
+				I am a passionate learner and have specialised in PHP, including in-depth use of Laravel and Symfony
+				components, as well as Golang and NodeJS. In addition to my technical proficiencies, I really enjoy
+				working with dynamic teams and individuals.
             </p>
         </div>
 

@@ -2,7 +2,7 @@
     {
         "uuid": "87e8ca06-e9db-4627-90d3-ad62fcbbc83f",
         "title": "Payments",
-        "description": "I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing\ncustomers or team members to understand their needs to build customizable e-stores.",
+        "description": "Own end-to-end software development cycle including building new payment platforms, and designing, implementing and delivering integrated payments solutions into existing infrastructure.",
         "icon": {
             "paths": [
                 "M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
@@ -12,7 +12,7 @@
     {
         "uuid": "45656d7d-eec5-4852-b837-608b26015e81",
         "title": "E-Commerce",
-        "description": "I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing\ncustomers or team members to understand their needs to build customizable e-stores.",
+        "description": "Develop end-to-end e-commerce architecture from product & pricing management, multi-currency payments and multi-language interfaces to inventory management and shipping, with consideration to user experience, security, performance, and browser-compatibility.",
         "icon": {
             "paths": [
                 "M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
@@ -22,7 +22,7 @@
     {
         "uuid": "30910389-fd68-4e23-b4b6-fed831adc748",
         "title": "Inventory",
-        "description": "I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing\ncustomers or team members to understand their needs to build customizable e-stores.",
+        "description": "Analyse, design and implement complex software solutions for inventory management using a customer-focused, lightweight agile approach. This includes capacity management, on-demand (virtual) inventory, and integration with third-party vendor systems.",
         "icon": {
             "paths": [
                 "M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
@@ -32,7 +32,7 @@
     {
         "uuid": "d22dd90d-93aa-44fc-9e7d-83cf47c094f1",
         "title": "APIs",
-        "description": "I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing\ncustomers or team members to understand their needs to build customizable e-stores.",
+        "description": "Building evergreen and scalable APIs for high-availability products, taking into consideration security, internationalisation. This includes multi-currency e-wallets, inventory management, booking & payment systems, pricing systems and check-out flow.",
         "icon": {
             "paths": [
                 "M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"
@@ -41,7 +41,7 @@
     },
     {
         "uuid": "",
-        "title": "Ticketing",
+        "title": "-Ticketing",
         "description": "I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing\ncustomers or team members to understand their needs to build customizable e-stores.",
         "icon": {
             "paths": [
@@ -52,14 +52,14 @@
     {
         "uuid": "0722c087-9b49-4c26-9b99-b048a1828ab0",
         "title": "Saas",
-        "description": "I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing\ncustomers or team members to understand their needs to build customizable e-stores.",
+        "description": "Develop, test and implement robust multi-tenancy Software as a Service (SaaS) architecture for e-commerce, with customisation and full POS integration for each partner/client.",
         "icon": {
             "paths": ["M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"]
         }
     },
     {
         "uuid": "c7991fc0-0ac5-4236-9884-2bfa9651478e",
-        "title": "Capacity",
+        "title": "-Capacity",
         "description": "I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing\ncustomers or team members to understand their needs to build customizable e-stores.",
         "icon": {
             "paths": [
@@ -69,7 +69,7 @@
     },
     {
         "uuid": "63257b4a-2d52-4b70-a070-cdbe42656894",
-        "title": "POS",
+        "title": "-POS",
         "description": "I have worked with e-commerce for more than 5 years. Part of my daily job has been interviewing\ncustomers or team members to understand their needs to build customizable e-stores.",
         "icon": {
             "paths": [
