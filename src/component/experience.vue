@@ -9,16 +9,16 @@
         </span>
 
         <p class="mt-4 text-gray-400 text-md">
-            As a full-stack developer, I am experienced in a wide range of
-            technologies and am comfortable taking responsibility for major
-            commercial projects. I have also been recognized for giving input to
-            UI/UX projects and have a high level of proficiency in JavaScript,
-            using Vue.js combined with a variety of CSS frameworks like Less,
-            Sass, Tailwind CSS and, vanilla CSS.
+            As a full-stack developer, I have experience in a wide range of
+            technologies that serve both front and back-end stacks, and have
+            delivered numerous major commercial projects for several industries.
+            I have also advised and collaborated with designers, creative teams,
+            product managers and stakeholders to shape, scale and optimize
+            products.
         </p>
 
         <div
-            class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16"
+            class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16"
         >
             <div v-for="experience in Experiences" :key="experience.uuid">
                 <div class="icon">
