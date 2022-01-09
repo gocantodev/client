@@ -56,49 +56,50 @@
                 >
                     <p>
                         <span class="block text-2xl font-bold text-white"
-                            >8K+</span
+                            >10+ Years</span
                         >
                         <span class="mt-1 block text-base text-gray-300"
-                            ><span class="font-medium text-white"
-                                >Companies</span
                             >
-                            use laoreet amet lacus nibh integer quis.</span
+							<span class="font-medium text-white"
+                                >Professional Experience</span
+                            >
+                            spanning Asia, USA & Venezuela.</span
                         >
                     </p>
 
                     <p>
                         <span class="block text-2xl font-bold text-white"
-                            >25K+</span
+                            >4+ Coding Languages</span
                         >
                         <span class="mt-1 block text-base text-gray-300"
                             ><span class="font-medium text-white"
-                                >Countries around the globe</span
+                                >Professional Proficiency</span
                             >
-                            lacus nibh integer quis.</span
+                            in Golang, NodeJS, JavaScript & PHP.</span
                         >
                     </p>
 
                     <p>
                         <span class="block text-2xl font-bold text-white"
-                            >98%</span
+                            >5+ CSS Frameworks</span
                         >
                         <span class="mt-1 block text-base text-gray-300"
                             ><span class="font-medium text-white"
-                                >Customer satisfaction</span
+                                >With specialization</span
                             >
-                            laoreet amet lacus nibh integer quis.</span
+                            in Tailwind, Less & Sass.</span
                         >
                     </p>
 
                     <p>
                         <span class="block text-2xl font-bold text-white"
-                            >12M+</span
+                            >5+ Industries</span
                         >
                         <span class="mt-1 block text-base text-gray-300"
                             ><span class="font-medium text-white"
-                                >Issues resolved</span
+                                >Successful products</span
                             >
-                            lacus nibh integer quis.</span
+                             in Fintech, Tourism, E-Commerce & Logistics.</span
                         >
                     </p>
                 </div>
