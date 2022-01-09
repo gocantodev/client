@@ -58,9 +58,8 @@
                         <span class="block text-2xl font-bold text-white"
                             >10+ Years</span
                         >
-                        <span class="mt-1 block text-base text-gray-300"
-                            >
-							<span class="font-medium text-white"
+                        <span class="mt-1 block text-base text-gray-300">
+                            <span class="font-medium text-white"
                                 >Professional Experience</span
                             >
                             spanning Asia, USA & Venezuela.</span
@@ -99,7 +98,7 @@
                             ><span class="font-medium text-white"
                                 >Successful products</span
                             >
-                             in Fintech, Tourism, E-Commerce & Logistics.</span
+                            in Fintech, Tourism, E-Commerce & Logistics.</span
                         >
                     </p>
                 </div>

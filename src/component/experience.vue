@@ -9,11 +9,13 @@
         </span>
 
         <p class="mt-4 text-gray-400 text-md">
-			As a full-stack developer, I have experience in a wide range of technologies that serve both front and
-			back-end stacks, and have delivered numerous major commercial projects for several industries.
-			I have also advised and collaborated with designers, creative teams, product managers and stakeholders
-			to shape, scale and optimize products.
-		</p>
+            As a full-stack developer, I have experience in a wide range of
+            technologies that serve both front and back-end stacks, and have
+            delivered numerous major commercial projects for several industries.
+            I have also advised and collaborated with designers, creative teams,
+            product managers and stakeholders to shape, scale and optimize
+            products.
+        </p>
 
         <div
             class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16"
