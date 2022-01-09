@@ -41,10 +41,21 @@
     },
     {
         "uuid": "0722c087-9b49-4c26-9b99-b048a1828ab0",
-        "title": "Saas",
+        "title": "SaaS",
         "description": "Develop, test and implement robust multi-tenancy Software as a Service (SaaS) architecture for e-commerce, with customisation and full POS integration for each partner/client.",
         "icon": {
             "paths": ["M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"]
+        }
+    },
+    {
+        "uuid": "63257b4a-2d52-4b70-a070-cdbe42656894",
+        "title": "Microservices",
+        "description": "Well-versed in applications under this architecture with event-driven design to maintain optimal communication using Kafka, gRPC and protocol buffers, for payment enterprise applications",
+
+        "icon": {
+            "paths": [
+                "M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"
+            ]
         }
     }
 ]
