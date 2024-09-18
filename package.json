@@ -22,7 +22,7 @@
         "prettier": "2.5.1",
         "tailwindcss": "^2.2.19",
         "typescript": "^4.4.3",
-        "vite": "^2.9.17",
+        "vite": "^3.2.11",
         "vue": "^3.2.16",
         "vue-eslint-parser": "^8.0.1",
         "vue-tsc": "^0.3.0"
